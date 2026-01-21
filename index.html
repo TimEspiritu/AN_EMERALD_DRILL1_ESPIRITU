@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Basic Calculator</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial;
+            background-color: #9ef9ff9c;
+
+            position: absolute;
+            top: 39%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box" id="output"></div>
+
+    <script>
+        //Number
+        let add1 = 4;
+
+        //Number
+        let add2 = 8;
+
+        //Number
+        let sub1 = 4;
+
+        //Number
+        let sub2 = 8;
+
+        //Number
+        let mul1 = 4;
+
+        //Number
+        let mul2 = 8;
+
+        //Number
+        let div1 = 4;
+
+        //Number
+        let div2 = 8;
+
+
+         document.getElementById("output").innerHTML =
+        "<h1>Basic Calculator</h1>" +
+        "Addition: " + add1 + " + " + add2 + " = " + (add1 + add2) + "<br>" +
+         "Subtraction: " + sub1 + " - " + sub2 + " = " + (sub1 - sub2) + "<br>" +
+       "Multiplication: " + mul1 + " * " + mul2 + " = " + (mul1 * mul2) + "<br>" +
+        "Division: " + div1 + " / " + div2 + " = " + (div1 / div2) + "<br>";
+
+
+
+    </script>
+
+</body>
+</html>
